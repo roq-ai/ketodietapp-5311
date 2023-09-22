@@ -1,0 +1,2572 @@
+[
+  {
+    "menu": [
+      {
+        "id": "9a26fab3-4747-411e-986c-bb2dc97eafed",
+        "name": "Salad",
+        "description": "Fresh and healthy salad",
+        "calories": 50657,
+        "protein": 52098,
+        "carbs": 10644,
+        "fat": 91060,
+        "created_at": "2023-09-22T15:20:28.767Z",
+        "updated_at": "2023-09-22T06:16:29.197Z"
+      },
+      {
+        "id": "fd2ae0b6-9ffd-451b-8708-e4a100a2f31d",
+        "name": "Pasta",
+        "description": "Delicious pasta with homemade sauce",
+        "calories": 85533,
+        "protein": 70598,
+        "carbs": 75016,
+        "fat": 19242,
+        "created_at": "2023-09-22T02:38:03.114Z",
+        "updated_at": "2023-09-22T18:57:12.933Z"
+      },
+      {
+        "id": "0ce522f7-bd6a-416f-b277-aad18e1423dc",
+        "name": "Burger",
+        "description": "Juicy burger with fries",
+        "calories": 54646,
+        "protein": 86910,
+        "carbs": 66651,
+        "fat": 64484,
+        "created_at": "2023-09-22T13:00:31.972Z",
+        "updated_at": "2023-09-22T04:23:23.683Z"
+      },
+      {
+        "id": "e0b7d8a6-edd0-43d1-9718-cd750b6deb09",
+        "name": "Pizza",
+        "description": "Authentic Italian pizza",
+        "calories": 77980,
+        "protein": 66022,
+        "carbs": 66187,
+        "fat": 81644,
+        "created_at": "2023-09-22T12:35:31.415Z",
+        "updated_at": "2023-09-22T16:31:04.988Z"
+      },
+      {
+        "id": "17ee3a45-1e4f-40f5-8ec7-7dcd6f5f1054",
+        "name": "Sushi",
+        "description": "Fresh and flavorful sushi",
+        "calories": 18335,
+        "protein": 15814,
+        "carbs": 69591,
+        "fat": 16856,
+        "created_at": "2023-09-22T14:08:35.742Z",
+        "updated_at": "2023-09-22T05:17:05.193Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "afada89e-69ca-4133-9de7-4ffc44d8089d",
+        "start_date": "2023-09-22T18:05:11.706Z",
+        "end_date": "2023-09-22T04:11:57.342Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-22T17:26:48.080Z",
+        "updated_at": "2023-09-22T08:20:58.677Z",
+        "menu_id": "17ee3a45-1e4f-40f5-8ec7-7dcd6f5f1054",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "848c5a24-45e1-4ec4-b1ef-e61e942ed108",
+        "start_date": "2023-09-22T01:07:31.256Z",
+        "end_date": "2023-09-22T04:18:56.339Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-22T04:47:18.968Z",
+        "updated_at": "2023-09-22T15:35:32.272Z",
+        "menu_id": "0ce522f7-bd6a-416f-b277-aad18e1423dc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af9832cb-f253-4e22-8662-0340830f0870",
+        "start_date": "2023-09-22T09:51:28.697Z",
+        "end_date": "2023-09-22T05:26:43.138Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-22T10:35:57.964Z",
+        "updated_at": "2023-09-22T18:06:53.757Z",
+        "menu_id": "9a26fab3-4747-411e-986c-bb2dc97eafed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e6cc7f2-db5e-40d4-b096-f5d24bcc9578",
+        "start_date": "2023-09-22T19:20:04.370Z",
+        "end_date": "2023-09-22T18:46:28.258Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-22T02:00:05.236Z",
+        "updated_at": "2023-09-22T05:12:20.971Z",
+        "menu_id": "e0b7d8a6-edd0-43d1-9718-cd750b6deb09",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf4fe335-65d3-4c61-8c8f-0736abc18508",
+        "start_date": "2023-09-22T11:53:24.490Z",
+        "end_date": "2023-09-22T12:03:12.354Z",
+        "payment_status": "Active",
+        "created_at": "2023-09-22T01:34:38.594Z",
+        "updated_at": "2023-09-22T11:44:01.968Z",
+        "menu_id": "fd2ae0b6-9ffd-451b-8708-e4a100a2f31d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "10cf4784-eb8e-4f2b-b6f9-321c7f52c439",
+        "date": "2023-09-22T12:55:08.436Z",
+        "meal_time": "2023-09-22T19:50:37.593Z",
+        "created_at": "2023-09-22T07:04:15.086Z",
+        "updated_at": "2023-09-22T10:23:15.638Z",
+        "menu_id": "17ee3a45-1e4f-40f5-8ec7-7dcd6f5f1054",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c71da579-2916-491c-9b91-3f950883eaa4",
+        "date": "2023-09-22T12:23:34.973Z",
+        "meal_time": "2023-09-22T09:40:26.111Z",
+        "created_at": "2023-09-21T23:23:40.993Z",
+        "updated_at": "2023-09-22T09:17:46.399Z",
+        "menu_id": "fd2ae0b6-9ffd-451b-8708-e4a100a2f31d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c83555b-7df6-4287-894e-8436d40fa274",
+        "date": "2023-09-21T22:35:08.264Z",
+        "meal_time": "2023-09-22T17:28:52.973Z",
+        "created_at": "2023-09-21T21:33:55.627Z",
+        "updated_at": "2023-09-22T11:47:12.366Z",
+        "menu_id": "9a26fab3-4747-411e-986c-bb2dc97eafed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c03ef304-4e67-47a1-9f3e-83a83fa44233",
+        "date": "2023-09-21T20:58:56.906Z",
+        "meal_time": "2023-09-22T09:53:08.624Z",
+        "created_at": "2023-09-22T08:49:51.536Z",
+        "updated_at": "2023-09-21T21:22:30.484Z",
+        "menu_id": "fd2ae0b6-9ffd-451b-8708-e4a100a2f31d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a602f7dc-efec-4d50-88bd-2ae9c1e84a3d",
+        "date": "2023-09-22T13:15:16.518Z",
+        "meal_time": "2023-09-22T19:49:26.590Z",
+        "created_at": "2023-09-21T20:52:43.353Z",
+        "updated_at": "2023-09-22T11:27:04.931Z",
+        "menu_id": "fd2ae0b6-9ffd-451b-8708-e4a100a2f31d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "f7cd2e5d-221d-412f-bf91-93ca2c4428ce",
+        "qualification": "Registered Dietitian",
+        "experience": 25740,
+        "specialization": "Weight Management",
+        "availability": "2023-09-22T00:04:38.161Z",
+        "created_at": "2023-09-22T17:27:35.918Z",
+        "updated_at": "2023-09-22T15:52:06.090Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29adc7dd-c5db-4474-a5aa-a879996aef79",
+        "qualification": "Certified Nutritionist",
+        "experience": 62867,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-22T11:38:22.762Z",
+        "created_at": "2023-09-22T14:59:57.320Z",
+        "updated_at": "2023-09-22T02:05:47.436Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f400fba8-e252-462a-b4b7-869bb63a7305",
+        "qualification": "Clinical Dietitian",
+        "experience": 65483,
+        "specialization": "Gut Health",
+        "availability": "2023-09-22T16:47:11.253Z",
+        "created_at": "2023-09-22T16:52:06.880Z",
+        "updated_at": "2023-09-22T08:46:10.024Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b4539fa-391d-4550-9f08-4b32af86772b",
+        "qualification": "Sports Nutritionist",
+        "experience": 35311,
+        "specialization": "Diabetes Management",
+        "availability": "2023-09-22T13:51:56.393Z",
+        "created_at": "2023-09-21T22:22:16.107Z",
+        "updated_at": "2023-09-22T17:49:42.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0da204b-1ff2-478a-9a9f-696c7482f826",
+        "qualification": "Holistic Health Coach",
+        "experience": 22048,
+        "specialization": "Plant-Based Nutrition",
+        "availability": "2023-09-22T07:09:20.881Z",
+        "created_at": "2023-09-21T20:58:36.269Z",
+        "updated_at": "2023-09-22T03:23:34.466Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "be42b030-8f84-4b23-9f71-d1dfc6f4f8d1",
+        "email": "Ariel.Reichel@roq.tech",
+        "firstName": "Diego",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26058070",
+        "tenantId": null
+      },
+      {
+        "reference": "310c13d7-f5f3-4d08-98b5-8b467afe753f",
+        "email": "Mariana.Greenholt@roq.tech",
+        "firstName": "Hilton",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94063871",
+        "tenantId": null
+      },
+      {
+        "reference": "1c02a8e5-f506-4354-b319-2005476f9826",
+        "email": "Emiliano82@roq.tech",
+        "firstName": "Mateo",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7824397",
+        "tenantId": null
+      },
+      {
+        "reference": "437427d8-4a24-4d0c-9728-76d21cb7ff8e",
+        "email": "Rowland_Reichel@roq.tech",
+        "firstName": "Bernice",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85032130",
+        "tenantId": null
+      },
+      {
+        "reference": "28384ff2-a35f-420b-9fc7-c9a01a8de0b3",
+        "email": "Eldon_Lind43@roq.tech",
+        "firstName": "Gregory",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76678792",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu": [
+      {
+        "id": "fb73d31e-2a94-4cc0-ad88-6c569aaac495",
+        "name": "Chicken Stir-Fry",
+        "description": "A delicious stir-fry with tender chicken and fresh vegetables.",
+        "calories": 55099,
+        "protein": 4484,
+        "carbs": 8932,
+        "fat": 85147,
+        "created_at": "2023-09-22T02:48:18.467Z",
+        "updated_at": "2023-09-22T16:50:43.747Z"
+      },
+      {
+        "id": "d56f5178-0c71-40be-9513-ce6156b2af8b",
+        "name": "Beef Tacos",
+        "description": "Tasty beef tacos with homemade salsa and guacamole.",
+        "calories": 68291,
+        "protein": 83328,
+        "carbs": 74838,
+        "fat": 30883,
+        "created_at": "2023-09-22T16:49:51.109Z",
+        "updated_at": "2023-09-22T12:55:26.796Z"
+      },
+      {
+        "id": "fee5aecd-7399-4f92-99e0-2234ef6842f5",
+        "name": "Vegetable Curry",
+        "description": "A flavorful vegetable curry with aromatic spices.",
+        "calories": 95431,
+        "protein": 12487,
+        "carbs": 26445,
+        "fat": 54346,
+        "created_at": "2023-09-22T13:42:20.600Z",
+        "updated_at": "2023-09-22T02:32:58.860Z"
+      },
+      {
+        "id": "2e380c0a-f6ef-47e1-be0a-e706c51b9fb5",
+        "name": "Salmon Salad",
+        "description": "Healthy and refreshing salad with grilled salmon.",
+        "calories": 17676,
+        "protein": 90029,
+        "carbs": 92228,
+        "fat": 77435,
+        "created_at": "2023-09-22T09:44:32.136Z",
+        "updated_at": "2023-09-22T02:28:59.807Z"
+      },
+      {
+        "id": "af099294-d40a-44ae-81df-51185e77e643",
+        "name": "Pasta Alfredo",
+        "description": "Creamy pasta dish with a rich Alfredo sauce.",
+        "calories": 44457,
+        "protein": 414,
+        "carbs": 2641,
+        "fat": 25273,
+        "created_at": "2023-09-22T17:13:18.517Z",
+        "updated_at": "2023-09-22T13:02:48.618Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "4a6544d8-d431-45ab-9846-c665b4047100",
+        "start_date": "2023-09-21T20:48:07.851Z",
+        "end_date": "2023-09-22T11:02:23.374Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-22T12:06:07.651Z",
+        "updated_at": "2023-09-22T07:51:11.049Z",
+        "menu_id": "fee5aecd-7399-4f92-99e0-2234ef6842f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "966bdb60-5c95-45ea-968c-91dd58ce1f3e",
+        "start_date": "2023-09-22T19:49:12.814Z",
+        "end_date": "2023-09-21T23:59:10.320Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-22T18:10:53.383Z",
+        "updated_at": "2023-09-22T14:22:17.006Z",
+        "menu_id": "fee5aecd-7399-4f92-99e0-2234ef6842f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "571c9505-1309-485c-949f-3acfcb5f360c",
+        "start_date": "2023-09-22T07:45:53.728Z",
+        "end_date": "2023-09-21T23:02:10.911Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-22T10:24:42.555Z",
+        "updated_at": "2023-09-21T21:05:18.727Z",
+        "menu_id": "fee5aecd-7399-4f92-99e0-2234ef6842f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e87cc18c-4207-4c6b-9ca0-5c088e2543b6",
+        "start_date": "2023-09-22T00:26:42.636Z",
+        "end_date": "2023-09-21T23:46:22.338Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-21T21:53:41.170Z",
+        "updated_at": "2023-09-22T07:23:38.695Z",
+        "menu_id": "fb73d31e-2a94-4cc0-ad88-6c569aaac495",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f74bf93-80cc-4f41-97e5-01fc2f49bfde",
+        "start_date": "2023-09-21T20:34:30.805Z",
+        "end_date": "2023-09-21T21:06:53.306Z",
+        "payment_status": "Active",
+        "created_at": "2023-09-22T02:59:04.756Z",
+        "updated_at": "2023-09-22T14:04:15.786Z",
+        "menu_id": "af099294-d40a-44ae-81df-51185e77e643",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "f8226060-5bee-4d7e-b144-91dea88fc89f",
+        "date": "2023-09-22T07:55:57.957Z",
+        "meal_time": "2023-09-22T16:41:36.883Z",
+        "created_at": "2023-09-22T03:58:24.350Z",
+        "updated_at": "2023-09-21T23:19:10.406Z",
+        "menu_id": "2e380c0a-f6ef-47e1-be0a-e706c51b9fb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b173b2e4-c2f7-452d-906f-15ba94697627",
+        "date": "2023-09-22T06:26:05.318Z",
+        "meal_time": "2023-09-22T09:29:33.186Z",
+        "created_at": "2023-09-22T06:53:06.837Z",
+        "updated_at": "2023-09-22T03:35:39.316Z",
+        "menu_id": "af099294-d40a-44ae-81df-51185e77e643",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e83a62b1-980a-4a34-8d3c-c935855729a6",
+        "date": "2023-09-22T03:55:10.567Z",
+        "meal_time": "2023-09-22T19:19:55.826Z",
+        "created_at": "2023-09-22T00:10:44.707Z",
+        "updated_at": "2023-09-22T04:04:14.955Z",
+        "menu_id": "2e380c0a-f6ef-47e1-be0a-e706c51b9fb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88398910-eda1-40ed-ab4c-8cc759980886",
+        "date": "2023-09-22T19:53:00.370Z",
+        "meal_time": "2023-09-22T03:52:07.138Z",
+        "created_at": "2023-09-22T17:05:29.800Z",
+        "updated_at": "2023-09-22T09:51:47.878Z",
+        "menu_id": "fee5aecd-7399-4f92-99e0-2234ef6842f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "011e7e91-b552-4fa8-a19f-f01edd1fd484",
+        "date": "2023-09-22T08:58:23.284Z",
+        "meal_time": "2023-09-21T23:57:08.653Z",
+        "created_at": "2023-09-22T09:16:19.010Z",
+        "updated_at": "2023-09-21T20:29:25.415Z",
+        "menu_id": "af099294-d40a-44ae-81df-51185e77e643",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "b7ac37b8-207f-4253-bf42-83034d01dc2a",
+        "qualification": "Registered Dietitian",
+        "experience": 2722,
+        "specialization": "Weight Management",
+        "availability": "2023-09-21T20:19:19.961Z",
+        "created_at": "2023-09-22T02:28:28.286Z",
+        "updated_at": "2023-09-22T17:46:46.414Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59831a50-cf2c-4787-a293-93808f0b40e0",
+        "qualification": "Certified Nutritionist",
+        "experience": 66727,
+        "specialization": "Diabetes Management",
+        "availability": "2023-09-22T14:12:10.649Z",
+        "created_at": "2023-09-22T10:41:32.926Z",
+        "updated_at": "2023-09-22T19:22:17.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02677f60-8084-49bf-a9f8-3cb6a1dbf24a",
+        "qualification": "Clinical Dietitian",
+        "experience": 28511,
+        "specialization": "Heart Health",
+        "availability": "2023-09-22T12:55:42.135Z",
+        "created_at": "2023-09-22T19:08:04.300Z",
+        "updated_at": "2023-09-22T17:24:57.055Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dd498e3-982d-48c8-bf20-c815f3ba336e",
+        "qualification": "Sports Nutritionist",
+        "experience": 81013,
+        "specialization": "Digestive Disorders",
+        "availability": "2023-09-22T00:40:50.315Z",
+        "created_at": "2023-09-22T06:08:21.245Z",
+        "updated_at": "2023-09-21T22:21:20.594Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd7656df-3771-4ce7-a6d7-56ed163401cc",
+        "qualification": "Pediatric Dietitian",
+        "experience": 56610,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-22T16:01:59.920Z",
+        "created_at": "2023-09-22T05:02:35.974Z",
+        "updated_at": "2023-09-22T17:19:04.016Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "72253d4e-70fc-4be9-82aa-3fa84eed270f",
+        "email": "Jeffrey.Adams5@roq.tech",
+        "firstName": "Green",
+        "lastName": "Beer-Pacocha",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60861313",
+        "tenantId": null
+      },
+      {
+        "reference": "4fcceac7-ab3b-43f0-b813-42deb3b13b70",
+        "email": "Tyreek78@roq.tech",
+        "firstName": "Filomena",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/200.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d5610087-b490-4b2e-afcd-3ac5bd146a42",
+        "email": "Tracey8@roq.tech",
+        "firstName": "Lyla",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/637.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b512cfc-23f3-4c54-8589-cb0e57bb4036",
+        "email": "Brionna.Bashirian@roq.tech",
+        "firstName": "Monty",
+        "lastName": "Kub-Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/650.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "986236c5-9cd6-44ef-a837-ee02e3dce77e",
+        "email": "Dandre.Hirthe@roq.tech",
+        "firstName": "Erwin",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78629938",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu": [
+      {
+        "id": "044dc101-953b-4c69-9946-aca7a3bf95c9",
+        "name": "Salad",
+        "description": "Fresh and healthy salad",
+        "calories": 74714,
+        "protein": 99555,
+        "carbs": 12291,
+        "fat": 61988,
+        "created_at": "2023-09-22T17:09:21.383Z",
+        "updated_at": "2023-09-22T18:01:49.339Z"
+      },
+      {
+        "id": "661fb2cc-9507-4f1b-b722-da711b94944b",
+        "name": "Pasta",
+        "description": "Delicious pasta with homemade sauce",
+        "calories": 21554,
+        "protein": 96269,
+        "carbs": 78561,
+        "fat": 6150,
+        "created_at": "2023-09-22T01:57:41.095Z",
+        "updated_at": "2023-09-22T19:26:38.907Z"
+      },
+      {
+        "id": "a5a52cd6-7833-408a-9d15-5b8094abc00c",
+        "name": "Burger",
+        "description": "Juicy burger with fries",
+        "calories": 30779,
+        "protein": 21266,
+        "carbs": 81065,
+        "fat": 35536,
+        "created_at": "2023-09-22T19:22:15.048Z",
+        "updated_at": "2023-09-22T05:09:01.067Z"
+      },
+      {
+        "id": "0844721e-fd2e-4720-8fd0-68aabc0ef8b5",
+        "name": "Pizza",
+        "description": "Authentic Italian pizza",
+        "calories": 77770,
+        "protein": 62206,
+        "carbs": 48838,
+        "fat": 11310,
+        "created_at": "2023-09-22T11:47:56.826Z",
+        "updated_at": "2023-09-21T21:32:50.653Z"
+      },
+      {
+        "id": "cdde426d-09fb-4f06-9cff-deb5384d3109",
+        "name": "Sushi",
+        "description": "Fresh and tasty sushi rolls",
+        "calories": 51723,
+        "protein": 96717,
+        "carbs": 61426,
+        "fat": 899,
+        "created_at": "2023-09-22T12:08:24.368Z",
+        "updated_at": "2023-09-22T19:24:38.249Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "e948836e-0e15-4ce7-92b9-d64dbd40e6b8",
+        "start_date": "2023-09-22T06:12:22.930Z",
+        "end_date": "2023-09-22T18:06:40.160Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-22T03:04:05.439Z",
+        "updated_at": "2023-09-22T13:12:06.332Z",
+        "menu_id": "661fb2cc-9507-4f1b-b722-da711b94944b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bbd2c59-eedb-46f8-934e-a2c7d536f835",
+        "start_date": "2023-09-22T13:40:53.689Z",
+        "end_date": "2023-09-22T03:27:44.702Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-22T01:54:38.692Z",
+        "updated_at": "2023-09-22T19:05:07.190Z",
+        "menu_id": "661fb2cc-9507-4f1b-b722-da711b94944b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e68d7530-bfb9-4244-b904-ed2bdef76c4b",
+        "start_date": "2023-09-22T18:10:53.758Z",
+        "end_date": "2023-09-22T12:39:52.685Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-22T11:11:10.629Z",
+        "updated_at": "2023-09-22T02:51:34.981Z",
+        "menu_id": "cdde426d-09fb-4f06-9cff-deb5384d3109",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c7bda9a-73df-4ad9-ba94-ac1d0e3018d5",
+        "start_date": "2023-09-22T19:59:44.495Z",
+        "end_date": "2023-09-22T10:37:10.968Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-22T09:06:37.805Z",
+        "updated_at": "2023-09-22T01:34:26.330Z",
+        "menu_id": "0844721e-fd2e-4720-8fd0-68aabc0ef8b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ff95ff0-a86c-4d36-8dfe-0ddcca47ab35",
+        "start_date": "2023-09-22T01:46:59.574Z",
+        "end_date": "2023-09-22T04:16:56.432Z",
+        "payment_status": "Active",
+        "created_at": "2023-09-22T13:13:41.497Z",
+        "updated_at": "2023-09-22T08:13:40.237Z",
+        "menu_id": "661fb2cc-9507-4f1b-b722-da711b94944b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "2c3cd7e8-1775-4b6f-a956-5b82a3d9f8ce",
+        "date": "2023-09-22T09:38:49.444Z",
+        "meal_time": "2023-09-22T02:14:14.116Z",
+        "created_at": "2023-09-21T21:44:03.629Z",
+        "updated_at": "2023-09-22T19:57:19.726Z",
+        "menu_id": "044dc101-953b-4c69-9946-aca7a3bf95c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba977c85-ba8c-482f-ab6c-d356ef91b962",
+        "date": "2023-09-21T20:27:39.699Z",
+        "meal_time": "2023-09-22T10:49:47.946Z",
+        "created_at": "2023-09-22T17:14:47.043Z",
+        "updated_at": "2023-09-22T09:58:22.922Z",
+        "menu_id": "cdde426d-09fb-4f06-9cff-deb5384d3109",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fc11e3f-edbf-492d-9881-40a8527a85af",
+        "date": "2023-09-21T20:44:54.094Z",
+        "meal_time": "2023-09-22T01:37:45.345Z",
+        "created_at": "2023-09-22T00:03:57.443Z",
+        "updated_at": "2023-09-22T07:30:22.465Z",
+        "menu_id": "cdde426d-09fb-4f06-9cff-deb5384d3109",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98ec1692-9b40-4685-9c32-dc2c2a4071ee",
+        "date": "2023-09-22T00:13:58.641Z",
+        "meal_time": "2023-09-22T19:17:50.337Z",
+        "created_at": "2023-09-22T08:45:05.356Z",
+        "updated_at": "2023-09-22T05:46:43.346Z",
+        "menu_id": "661fb2cc-9507-4f1b-b722-da711b94944b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42403aa2-3367-4b32-a489-1f8497d20fa8",
+        "date": "2023-09-22T01:58:02.777Z",
+        "meal_time": "2023-09-22T10:51:28.649Z",
+        "created_at": "2023-09-22T01:40:53.640Z",
+        "updated_at": "2023-09-22T17:44:30.310Z",
+        "menu_id": "a5a52cd6-7833-408a-9d15-5b8094abc00c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "853df524-8dfd-44f9-98dc-1da0f7adc6da",
+        "qualification": "Registered Dietitian",
+        "experience": 38319,
+        "specialization": "Weight Management",
+        "availability": "2023-09-22T07:14:10.353Z",
+        "created_at": "2023-09-22T02:30:17.859Z",
+        "updated_at": "2023-09-22T01:43:15.385Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efd74191-83ef-467b-9de2-52f92aca2352",
+        "qualification": "Certified Nutritionist",
+        "experience": 42410,
+        "specialization": "Diabetes Nutrition",
+        "availability": "2023-09-22T03:47:58.928Z",
+        "created_at": "2023-09-22T05:43:28.836Z",
+        "updated_at": "2023-09-21T22:49:08.188Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01500f9a-6111-412f-8f20-5b2de14dfebc",
+        "qualification": "Master's in Nutrition",
+        "experience": 59041,
+        "specialization": "Heart Health",
+        "availability": "2023-09-21T23:55:10.690Z",
+        "created_at": "2023-09-22T01:00:47.413Z",
+        "updated_at": "2023-09-22T09:41:40.560Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e371b500-c86c-46fb-b82a-f105883d64d1",
+        "qualification": "Clinical Dietitian",
+        "experience": 5963,
+        "specialization": "Gut Health",
+        "availability": "2023-09-22T01:16:22.822Z",
+        "created_at": "2023-09-22T14:51:03.849Z",
+        "updated_at": "2023-09-22T15:06:56.440Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a512e2d-e7a8-4b13-bf3f-df85d9252d15",
+        "qualification": "Sports Nutritionist",
+        "experience": 4293,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-22T11:41:56.836Z",
+        "created_at": "2023-09-21T20:36:19.055Z",
+        "updated_at": "2023-09-22T05:43:11.314Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "54ef8ef4-bc17-46df-98b0-6b8ea64a9f0a",
+        "email": "Pinkie_Turner@roq.tech",
+        "firstName": "Lurline",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83200975",
+        "tenantId": null
+      },
+      {
+        "reference": "d48f2405-921e-42ce-ba08-b5e8aa58bd60",
+        "email": "Cory.Koelpin-Sauer36@roq.tech",
+        "firstName": "Avery",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/554.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c17d3f59-d6a0-4cf1-9588-63edb1dece7b",
+        "email": "Breanne78@roq.tech",
+        "firstName": "Wava",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62148984",
+        "tenantId": null
+      },
+      {
+        "reference": "1840a051-6c28-43b5-8e87-9d2be5d7b596",
+        "email": "Theron_Jacobi@roq.tech",
+        "firstName": "Edwina",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38059135",
+        "tenantId": null
+      },
+      {
+        "reference": "5231df34-cc61-47ae-b73a-60b4d604bf11",
+        "email": "Dakota7@roq.tech",
+        "firstName": "Cristopher",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93741373",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu": [
+      {
+        "id": "5640ab81-aea4-4700-9f94-799152f48941",
+        "name": "Breakfast",
+        "description": "Delicious breakfast options",
+        "calories": 35262,
+        "protein": 44278,
+        "carbs": 99223,
+        "fat": 38481,
+        "created_at": "2023-09-21T22:13:01.876Z",
+        "updated_at": "2023-09-22T11:07:34.153Z"
+      },
+      {
+        "id": "89ae943c-7ab0-4795-9097-ea11659536fb",
+        "name": "Lunch",
+        "description": "Healthy lunch choices",
+        "calories": 6812,
+        "protein": 50017,
+        "carbs": 27434,
+        "fat": 67379,
+        "created_at": "2023-09-22T18:47:50.400Z",
+        "updated_at": "2023-09-22T05:45:45.460Z"
+      },
+      {
+        "id": "2ed5f588-d5d4-48a7-9e59-2f35698ee1da",
+        "name": "Dinner",
+        "description": "Tasty dinner selections",
+        "calories": 15558,
+        "protein": 21009,
+        "carbs": 95484,
+        "fat": 20623,
+        "created_at": "2023-09-21T22:37:02.709Z",
+        "updated_at": "2023-09-22T11:47:59.724Z"
+      },
+      {
+        "id": "65c9c03d-c619-4a48-baee-d1f28639f9a0",
+        "name": "Snacks",
+        "description": "Yummy snack ideas",
+        "calories": 89626,
+        "protein": 7644,
+        "carbs": 72675,
+        "fat": 20239,
+        "created_at": "2023-09-22T13:33:09.160Z",
+        "updated_at": "2023-09-21T20:25:11.241Z"
+      },
+      {
+        "id": "08ce9684-86cd-4262-a1e9-930bc5c7b1ef",
+        "name": "Beverages",
+        "description": "Refreshing beverage options",
+        "calories": 48951,
+        "protein": 98843,
+        "carbs": 3660,
+        "fat": 62786,
+        "created_at": "2023-09-21T23:18:07.527Z",
+        "updated_at": "2023-09-22T05:40:16.629Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "28f18c04-33c4-406d-bef3-cc04dfbb5530",
+        "start_date": "2023-09-22T18:08:01.969Z",
+        "end_date": "2023-09-22T15:23:31.634Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-22T08:06:36.974Z",
+        "updated_at": "2023-09-21T20:25:38.558Z",
+        "menu_id": "08ce9684-86cd-4262-a1e9-930bc5c7b1ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f762c74a-56ca-45b8-bf6d-a787ba25545a",
+        "start_date": "2023-09-22T05:43:36.827Z",
+        "end_date": "2023-09-22T13:25:42.777Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-21T22:16:53.935Z",
+        "updated_at": "2023-09-22T04:35:34.415Z",
+        "menu_id": "2ed5f588-d5d4-48a7-9e59-2f35698ee1da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa61689f-cca3-4db5-89f7-b132b6d585f2",
+        "start_date": "2023-09-22T20:06:37.432Z",
+        "end_date": "2023-09-22T09:44:40.542Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-22T03:18:01.455Z",
+        "updated_at": "2023-09-22T10:43:20.420Z",
+        "menu_id": "65c9c03d-c619-4a48-baee-d1f28639f9a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "757d89a9-45a6-479b-9cab-2a1dd298c90f",
+        "start_date": "2023-09-22T09:41:46.532Z",
+        "end_date": "2023-09-21T23:20:57.105Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-22T07:42:35.151Z",
+        "updated_at": "2023-09-22T15:45:56.788Z",
+        "menu_id": "65c9c03d-c619-4a48-baee-d1f28639f9a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f002f429-ecee-4eea-8433-7e5f67e54eb3",
+        "start_date": "2023-09-22T13:06:22.760Z",
+        "end_date": "2023-09-22T02:48:55.502Z",
+        "payment_status": "Active",
+        "created_at": "2023-09-22T10:45:45.534Z",
+        "updated_at": "2023-09-22T13:12:16.962Z",
+        "menu_id": "89ae943c-7ab0-4795-9097-ea11659536fb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "eca4edb5-53e7-42af-917d-17679121b8ee",
+        "date": "2023-09-22T07:47:58.593Z",
+        "meal_time": "2023-09-22T11:44:39.104Z",
+        "created_at": "2023-09-21T23:29:16.815Z",
+        "updated_at": "2023-09-22T12:42:45.984Z",
+        "menu_id": "5640ab81-aea4-4700-9f94-799152f48941",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c8009d6-0c66-4eca-a2ca-bd0446e0db7e",
+        "date": "2023-09-22T16:02:58.054Z",
+        "meal_time": "2023-09-21T21:47:19.130Z",
+        "created_at": "2023-09-22T19:49:38.657Z",
+        "updated_at": "2023-09-21T22:28:41.343Z",
+        "menu_id": "5640ab81-aea4-4700-9f94-799152f48941",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05cf9d77-6758-458c-9cdf-177a13000067",
+        "date": "2023-09-22T04:01:32.646Z",
+        "meal_time": "2023-09-21T22:00:29.096Z",
+        "created_at": "2023-09-21T20:41:58.030Z",
+        "updated_at": "2023-09-21T21:34:37.460Z",
+        "menu_id": "89ae943c-7ab0-4795-9097-ea11659536fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8476021-5c82-40d3-8095-964ec26069ed",
+        "date": "2023-09-21T23:15:50.937Z",
+        "meal_time": "2023-09-22T01:35:40.164Z",
+        "created_at": "2023-09-22T19:59:11.919Z",
+        "updated_at": "2023-09-22T04:13:49.762Z",
+        "menu_id": "65c9c03d-c619-4a48-baee-d1f28639f9a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "958174ba-ca5d-407c-ae1c-4db7ea0d448e",
+        "date": "2023-09-22T08:24:13.386Z",
+        "meal_time": "2023-09-22T19:25:48.795Z",
+        "created_at": "2023-09-22T06:45:56.796Z",
+        "updated_at": "2023-09-21T22:34:42.320Z",
+        "menu_id": "08ce9684-86cd-4262-a1e9-930bc5c7b1ef",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "4e01e641-52d2-48f4-bc8f-dd5d0b22d251",
+        "qualification": "Registered Dietitian",
+        "experience": 28076,
+        "specialization": "Weight Management",
+        "availability": "2023-09-22T16:19:20.369Z",
+        "created_at": "2023-09-22T16:53:15.044Z",
+        "updated_at": "2023-09-22T10:58:05.474Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0aee1197-75da-412a-ad7e-f4865940ebd2",
+        "qualification": "Certified Nutritionist",
+        "experience": 26851,
+        "specialization": "Diabetes",
+        "availability": "2023-09-21T20:49:30.341Z",
+        "created_at": "2023-09-22T12:28:52.495Z",
+        "updated_at": "2023-09-21T21:38:27.565Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9a539a3-0cf9-4f8e-b76d-46e1a17d707d",
+        "qualification": "Clinical Dietitian",
+        "experience": 32781,
+        "specialization": "Heart Health",
+        "availability": "2023-09-22T05:30:13.901Z",
+        "created_at": "2023-09-22T02:31:24.053Z",
+        "updated_at": "2023-09-22T19:08:30.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "838f39e5-b68d-4d6c-882f-b502cc3b0ca0",
+        "qualification": "Sports Nutritionist",
+        "experience": 5825,
+        "specialization": "Gut Health",
+        "availability": "2023-09-22T15:39:49.168Z",
+        "created_at": "2023-09-22T19:48:45.903Z",
+        "updated_at": "2023-09-22T01:55:35.538Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e689c0de-2a58-48e0-a785-da751f342edf",
+        "qualification": "Pediatric Dietitian",
+        "experience": 98712,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-21T21:18:42.848Z",
+        "created_at": "2023-09-22T19:47:45.636Z",
+        "updated_at": "2023-09-22T19:28:54.572Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8748b2bf-1747-43e8-85fc-dba267904ab3",
+        "email": "Lionel.Waelchi@roq.tech",
+        "firstName": "Mable",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/384.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f16b5d3-a010-43f1-8425-3d8beba05f0a",
+        "email": "Giovanna_Ernser@roq.tech",
+        "firstName": "Roderick",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/943.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "84bbc539-6163-4229-8e07-73eef98d7d6f",
+        "email": "Pansy24@roq.tech",
+        "firstName": "Chance",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1106.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "899653ee-4e63-4e06-83d4-480be45b1bbe",
+        "email": "Tobin_Strosin@roq.tech",
+        "firstName": "Murl",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18449457",
+        "tenantId": null
+      },
+      {
+        "reference": "0c8c89aa-e946-4550-96ed-b8cf848e6e5d",
+        "email": "Kolby_Goodwin@roq.tech",
+        "firstName": "Laurie",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu": [
+      {
+        "id": "10c8c2ab-7b41-4f20-b865-8a9a654259ee",
+        "name": "Breakfast",
+        "description": "Delicious morning meal",
+        "calories": 13367,
+        "protein": 63180,
+        "carbs": 31345,
+        "fat": 69744,
+        "created_at": "2023-09-22T09:28:23.223Z",
+        "updated_at": "2023-09-22T10:57:10.840Z"
+      },
+      {
+        "id": "60d99e08-df34-4701-8734-5fe9da12b081",
+        "name": "Lunch",
+        "description": "Healthy midday options",
+        "calories": 50992,
+        "protein": 41708,
+        "carbs": 13209,
+        "fat": 91193,
+        "created_at": "2023-09-22T10:30:32.989Z",
+        "updated_at": "2023-09-22T18:43:58.856Z"
+      },
+      {
+        "id": "b877d518-4dcf-4ff9-964b-3b70586a62a1",
+        "name": "Dinner",
+        "description": "Satisfying evening dishes",
+        "calories": 44502,
+        "protein": 10729,
+        "carbs": 92201,
+        "fat": 74861,
+        "created_at": "2023-09-22T18:21:13.926Z",
+        "updated_at": "2023-09-22T19:00:46.182Z"
+      },
+      {
+        "id": "331859c8-b121-462b-941b-71ce33bd2dfa",
+        "name": "Snacks",
+        "description": "Tasty bite-sized treats",
+        "calories": 16701,
+        "protein": 15710,
+        "carbs": 8760,
+        "fat": 22199,
+        "created_at": "2023-09-22T07:53:05.992Z",
+        "updated_at": "2023-09-22T15:28:38.097Z"
+      },
+      {
+        "id": "b878e29f-d549-4ecc-a2c3-8af692af4099",
+        "name": "Beverages",
+        "description": "Refreshing drink choices",
+        "calories": 98652,
+        "protein": 27739,
+        "carbs": 26857,
+        "fat": 93056,
+        "created_at": "2023-09-22T20:06:20.230Z",
+        "updated_at": "2023-09-22T08:35:17.372Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "9dc24847-6032-4e51-8daf-baf4ccc70c6d",
+        "start_date": "2023-09-22T06:59:29.277Z",
+        "end_date": "2023-09-22T08:46:29.285Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-21T21:15:57.970Z",
+        "updated_at": "2023-09-21T21:22:11.322Z",
+        "menu_id": "331859c8-b121-462b-941b-71ce33bd2dfa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "566c04a5-40c0-4e70-8e6e-345a9ffb3822",
+        "start_date": "2023-09-22T10:30:28.355Z",
+        "end_date": "2023-09-22T18:10:31.762Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-22T09:21:18.626Z",
+        "updated_at": "2023-09-22T13:49:33.249Z",
+        "menu_id": "60d99e08-df34-4701-8734-5fe9da12b081",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "227b6342-ab50-4764-b5df-d43854c26b1f",
+        "start_date": "2023-09-22T06:52:28.883Z",
+        "end_date": "2023-09-22T06:05:12.945Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-22T10:23:06.896Z",
+        "updated_at": "2023-09-22T19:43:51.497Z",
+        "menu_id": "331859c8-b121-462b-941b-71ce33bd2dfa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2024b050-7816-4861-ad11-e4e841f1c0b9",
+        "start_date": "2023-09-22T09:39:09.567Z",
+        "end_date": "2023-09-21T20:37:52.631Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-22T00:57:18.552Z",
+        "updated_at": "2023-09-22T17:20:13.632Z",
+        "menu_id": "b877d518-4dcf-4ff9-964b-3b70586a62a1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29612fcf-65e3-4de3-8f7d-c3cdcb034e64",
+        "start_date": "2023-09-21T23:29:42.292Z",
+        "end_date": "2023-09-22T15:16:26.662Z",
+        "payment_status": "Active",
+        "created_at": "2023-09-21T22:51:04.420Z",
+        "updated_at": "2023-09-22T08:48:07.718Z",
+        "menu_id": "331859c8-b121-462b-941b-71ce33bd2dfa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "c090ee64-82bc-46f5-9203-4416a840c4eb",
+        "date": "2023-09-22T05:45:35.805Z",
+        "meal_time": "2023-09-22T14:43:39.843Z",
+        "created_at": "2023-09-22T05:39:40.908Z",
+        "updated_at": "2023-09-22T12:24:17.377Z",
+        "menu_id": "60d99e08-df34-4701-8734-5fe9da12b081",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fb309d6-a7fe-4ba3-a68d-1cb12da07286",
+        "date": "2023-09-22T15:26:51.077Z",
+        "meal_time": "2023-09-22T09:30:02.689Z",
+        "created_at": "2023-09-22T03:21:39.167Z",
+        "updated_at": "2023-09-22T15:49:18.793Z",
+        "menu_id": "b878e29f-d549-4ecc-a2c3-8af692af4099",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d72a65d-0965-42cb-abac-90fcbfaa513c",
+        "date": "2023-09-21T20:24:24.079Z",
+        "meal_time": "2023-09-21T21:45:21.908Z",
+        "created_at": "2023-09-22T05:14:02.351Z",
+        "updated_at": "2023-09-22T10:26:28.014Z",
+        "menu_id": "331859c8-b121-462b-941b-71ce33bd2dfa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfb7370b-dfd2-4838-8004-ab587142dcde",
+        "date": "2023-09-22T17:14:13.842Z",
+        "meal_time": "2023-09-22T09:06:36.273Z",
+        "created_at": "2023-09-22T12:52:18.536Z",
+        "updated_at": "2023-09-22T06:44:46.604Z",
+        "menu_id": "b877d518-4dcf-4ff9-964b-3b70586a62a1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e9fe429-dd2a-4f2e-a693-15501c6d37f6",
+        "date": "2023-09-21T22:35:35.012Z",
+        "meal_time": "2023-09-22T12:27:58.776Z",
+        "created_at": "2023-09-22T05:36:54.737Z",
+        "updated_at": "2023-09-22T12:38:12.688Z",
+        "menu_id": "60d99e08-df34-4701-8734-5fe9da12b081",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "01972706-6dce-4e41-93ec-50aacdba9955",
+        "qualification": "Registered Dietitian",
+        "experience": 50069,
+        "specialization": "Weight Management",
+        "availability": "2023-09-22T07:19:34.958Z",
+        "created_at": "2023-09-22T19:27:29.235Z",
+        "updated_at": "2023-09-21T21:45:13.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31177e73-3e79-4add-94cd-b3882f9a21a1",
+        "qualification": "Certified Nutritionist",
+        "experience": 98710,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-22T15:57:30.193Z",
+        "created_at": "2023-09-22T14:10:14.402Z",
+        "updated_at": "2023-09-21T22:24:14.248Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c901888-52fe-4167-ad6c-7b5b44f11394",
+        "qualification": "Master of Science in Nutrition",
+        "experience": 49356,
+        "specialization": "Pediatric Nutrition",
+        "availability": "2023-09-22T09:34:04.843Z",
+        "created_at": "2023-09-22T16:46:21.249Z",
+        "updated_at": "2023-09-22T07:32:17.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21154623-af62-40b6-8297-a61389442b81",
+        "qualification": "Dietetics Specialist",
+        "experience": 43073,
+        "specialization": "Eating Disorders",
+        "availability": "2023-09-22T13:29:56.797Z",
+        "created_at": "2023-09-22T05:19:35.206Z",
+        "updated_at": "2023-09-22T17:18:39.224Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7cfb588-3a3c-431e-9d00-22e9d87a58b6",
+        "qualification": "Nutrition Consultant",
+        "experience": 72886,
+        "specialization": "Plant-Based Diets",
+        "availability": "2023-09-21T20:37:26.187Z",
+        "created_at": "2023-09-22T11:18:39.929Z",
+        "updated_at": "2023-09-22T12:12:16.435Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f9092d6-bae8-4ba6-8ab1-e6a3d3d68da7",
+        "email": "Ayla.Nicolas1@roq.tech",
+        "firstName": "Elisha",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/240.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "95903fbf-7b5d-4f6f-9762-d080ccfc5fd1",
+        "email": "Consuelo_Walsh67@roq.tech",
+        "firstName": "Geovanny",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24868179",
+        "tenantId": null
+      },
+      {
+        "reference": "91d17267-ef47-4810-bbad-ab15a31b7a86",
+        "email": "Leonardo.Walsh@roq.tech",
+        "firstName": "Raheem",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19983685-1cc4-44b3-91b1-0dbf76657a54",
+        "email": "Lisette.Lebsack@roq.tech",
+        "firstName": "Asa",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/961.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "99e68458-3ad4-4f50-94a0-56827fc47ac2",
+        "email": "Elisa.Wisoky50@roq.tech",
+        "firstName": "Mandy",
+        "lastName": "Swaniawski-Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/449.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu": [
+      {
+        "id": "5ad6d446-21d5-4408-a2e0-8eb414c480ca",
+        "name": "Burger",
+        "description": "Delicious burger with juicy patty",
+        "calories": 21865,
+        "protein": 16293,
+        "carbs": 3705,
+        "fat": 64899,
+        "created_at": "2023-09-22T14:28:37.896Z",
+        "updated_at": "2023-09-21T23:48:25.265Z"
+      },
+      {
+        "id": "b81ab478-d83c-400b-8677-0656ca4cf26c",
+        "name": "Pizza",
+        "description": "Thin crust pizza with fresh toppings",
+        "calories": 35292,
+        "protein": 35251,
+        "carbs": 10807,
+        "fat": 84136,
+        "created_at": "2023-09-21T23:47:03.231Z",
+        "updated_at": "2023-09-22T16:16:44.313Z"
+      },
+      {
+        "id": "5292485f-25f5-476b-9304-9fefb96fe5ca",
+        "name": "Salad",
+        "description": "Healthy salad with mixed greens",
+        "calories": 57412,
+        "protein": 2339,
+        "carbs": 20308,
+        "fat": 63575,
+        "created_at": "2023-09-22T15:34:14.616Z",
+        "updated_at": "2023-09-22T12:16:32.907Z"
+      },
+      {
+        "id": "f4bf9be0-c35d-409a-84f4-7de51d0fdfa3",
+        "name": "Pasta",
+        "description": "Creamy pasta with rich sauce",
+        "calories": 84898,
+        "protein": 72324,
+        "carbs": 58119,
+        "fat": 67104,
+        "created_at": "2023-09-21T23:44:34.378Z",
+        "updated_at": "2023-09-22T00:29:49.693Z"
+      },
+      {
+        "id": "391eaac4-27ab-4f1b-801e-9cba2a9f8bd6",
+        "name": "Sushi",
+        "description": "Fresh sushi rolls with dipping sauce",
+        "calories": 40793,
+        "protein": 30293,
+        "carbs": 36056,
+        "fat": 52322,
+        "created_at": "2023-09-22T19:40:07.973Z",
+        "updated_at": "2023-09-22T11:01:02.866Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "33897df2-dee8-4940-855d-5e7022053476",
+        "start_date": "2023-09-22T12:24:59.933Z",
+        "end_date": "2023-09-22T16:55:20.468Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-22T07:54:14.959Z",
+        "updated_at": "2023-09-22T08:15:28.886Z",
+        "menu_id": "391eaac4-27ab-4f1b-801e-9cba2a9f8bd6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6895b325-8464-4439-a1de-12705be1d146",
+        "start_date": "2023-09-22T10:17:44.179Z",
+        "end_date": "2023-09-22T17:07:38.835Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-22T01:31:30.470Z",
+        "updated_at": "2023-09-22T01:20:19.861Z",
+        "menu_id": "5ad6d446-21d5-4408-a2e0-8eb414c480ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "523c7a5d-5666-49d3-8536-11a6c9f2d036",
+        "start_date": "2023-09-22T13:58:18.207Z",
+        "end_date": "2023-09-22T11:17:47.089Z",
+        "payment_status": "Failed",
+        "created_at": "2023-09-22T14:33:40.450Z",
+        "updated_at": "2023-09-22T01:36:37.486Z",
+        "menu_id": "391eaac4-27ab-4f1b-801e-9cba2a9f8bd6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdd5ec0f-43cb-4d06-b400-f70f9794d68b",
+        "start_date": "2023-09-21T22:46:33.971Z",
+        "end_date": "2023-09-21T21:50:31.912Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-22T02:33:42.545Z",
+        "updated_at": "2023-09-22T08:54:39.423Z",
+        "menu_id": "5292485f-25f5-476b-9304-9fefb96fe5ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bcf0302-b941-4f39-8538-17f73a88000b",
+        "start_date": "2023-09-22T13:38:07.296Z",
+        "end_date": "2023-09-22T19:09:14.984Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-22T03:40:34.908Z",
+        "updated_at": "2023-09-21T23:09:27.432Z",
+        "menu_id": "5ad6d446-21d5-4408-a2e0-8eb414c480ca",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "32108d98-20ce-4631-be07-2a9e55661426",
+        "date": "2023-09-22T11:47:57.292Z",
+        "meal_time": "2023-09-22T15:30:52.601Z",
+        "created_at": "2023-09-22T11:18:55.240Z",
+        "updated_at": "2023-09-22T03:31:12.171Z",
+        "menu_id": "391eaac4-27ab-4f1b-801e-9cba2a9f8bd6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ddbb758-9e3b-49ca-b8a3-52100b1cd09b",
+        "date": "2023-09-22T19:13:19.997Z",
+        "meal_time": "2023-09-21T23:49:50.830Z",
+        "created_at": "2023-09-22T15:06:27.706Z",
+        "updated_at": "2023-09-22T00:20:18.302Z",
+        "menu_id": "f4bf9be0-c35d-409a-84f4-7de51d0fdfa3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44ad571c-03a5-47b7-bbdd-bbdef98cc4d6",
+        "date": "2023-09-21T21:27:13.989Z",
+        "meal_time": "2023-09-22T18:58:30.805Z",
+        "created_at": "2023-09-22T16:09:04.578Z",
+        "updated_at": "2023-09-22T03:27:40.544Z",
+        "menu_id": "5ad6d446-21d5-4408-a2e0-8eb414c480ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ded1ddd2-0e65-4037-ba93-105f6ebecebc",
+        "date": "2023-09-22T05:41:12.745Z",
+        "meal_time": "2023-09-22T19:09:46.766Z",
+        "created_at": "2023-09-22T10:04:26.499Z",
+        "updated_at": "2023-09-22T19:55:39.980Z",
+        "menu_id": "5ad6d446-21d5-4408-a2e0-8eb414c480ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65ebf1a9-ee8a-4a9f-a26b-ce8659e6b0eb",
+        "date": "2023-09-22T19:10:21.786Z",
+        "meal_time": "2023-09-21T23:30:14.857Z",
+        "created_at": "2023-09-22T19:31:29.130Z",
+        "updated_at": "2023-09-22T01:01:36.320Z",
+        "menu_id": "5ad6d446-21d5-4408-a2e0-8eb414c480ca",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "c6c0707f-c4a2-4274-a87f-362523def40f",
+        "qualification": "Registered Dietitian",
+        "experience": 24589,
+        "specialization": "Weight Management",
+        "availability": "2023-09-22T12:55:02.526Z",
+        "created_at": "2023-09-22T02:01:52.255Z",
+        "updated_at": "2023-09-22T18:49:21.251Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e08b1b8-891e-405e-8654-004b3fcef59b",
+        "qualification": "Certified Nutritionist",
+        "experience": 99603,
+        "specialization": "Diabetes Management",
+        "availability": "2023-09-22T03:27:50.351Z",
+        "created_at": "2023-09-22T01:58:09.302Z",
+        "updated_at": "2023-09-21T21:02:59.863Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92d436dc-2049-4023-9f6d-a6ceb587271e",
+        "qualification": "Clinical Dietitian",
+        "experience": 97592,
+        "specialization": "Heart Health",
+        "availability": "2023-09-22T18:51:47.220Z",
+        "created_at": "2023-09-22T11:00:16.503Z",
+        "updated_at": "2023-09-22T01:43:40.249Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "deada6ea-f60a-4f05-b25e-80f389672042",
+        "qualification": "Sports Nutritionist",
+        "experience": 57798,
+        "specialization": "Digestive Disorders",
+        "availability": "2023-09-22T11:44:04.835Z",
+        "created_at": "2023-09-22T17:47:42.765Z",
+        "updated_at": "2023-09-22T04:41:31.800Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bb4a1f8-f218-4bb1-8fec-5cf770e147d9",
+        "qualification": "Pediatric Dietitian",
+        "experience": 34552,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-22T08:07:13.257Z",
+        "created_at": "2023-09-21T23:40:44.255Z",
+        "updated_at": "2023-09-22T13:38:20.643Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "46cbc6db-27ee-46f3-9f02-3a9345f77b4b",
+        "email": "Serenity.Legros@roq.tech",
+        "firstName": "Chloe",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/226.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d87308b5-27df-4129-aec0-bf75f129f7db",
+        "email": "Jaeden_Mohr@roq.tech",
+        "firstName": "Jane",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/651.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c283b11-94ee-4295-9b41-fd8c32d03ede",
+        "email": "Thelma21@roq.tech",
+        "firstName": "Samara",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c20d7407-a664-42af-9276-5a7a432e89ea",
+        "email": "Julius.Toy10@roq.tech",
+        "firstName": "Gaston",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/688.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "51810890-4772-4b2f-9634-83774dbee6ed",
+        "email": "Kevon72@roq.tech",
+        "firstName": "Kieran",
+        "lastName": "Boehm-Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu": [
+      {
+        "id": "a25da3f8-26f5-4441-9fd9-509c9d188a8a",
+        "name": "Breakfast",
+        "description": "Delicious breakfast options",
+        "calories": 19169,
+        "protein": 96600,
+        "carbs": 89976,
+        "fat": 62732,
+        "created_at": "2023-09-22T09:54:11.387Z",
+        "updated_at": "2023-09-21T23:15:56.007Z"
+      },
+      {
+        "id": "c6773c36-d9b5-4236-8f3a-d654997aa687",
+        "name": "Lunch",
+        "description": "Healthy lunch choices",
+        "calories": 30508,
+        "protein": 28437,
+        "carbs": 63335,
+        "fat": 37344,
+        "created_at": "2023-09-21T21:09:42.735Z",
+        "updated_at": "2023-09-21T21:42:47.992Z"
+      },
+      {
+        "id": "a8a21785-ae99-4040-a54e-80778ab0658d",
+        "name": "Dinner",
+        "description": "Tasty dinner recipes",
+        "calories": 48610,
+        "protein": 29664,
+        "carbs": 5987,
+        "fat": 91303,
+        "created_at": "2023-09-22T08:33:26.761Z",
+        "updated_at": "2023-09-22T10:52:42.888Z"
+      },
+      {
+        "id": "826be5f5-71d2-46a5-95ad-e911b925e851",
+        "name": "Snacks",
+        "description": "Quick and easy snacks",
+        "calories": 29130,
+        "protein": 994,
+        "carbs": 31164,
+        "fat": 73301,
+        "created_at": "2023-09-22T03:14:45.654Z",
+        "updated_at": "2023-09-22T15:20:35.948Z"
+      },
+      {
+        "id": "74706bc1-270d-405f-8d9f-47b3539a1ef3",
+        "name": "Beverages",
+        "description": "Refreshing beverages",
+        "calories": 63899,
+        "protein": 87359,
+        "carbs": 81594,
+        "fat": 97412,
+        "created_at": "2023-09-22T02:00:25.524Z",
+        "updated_at": "2023-09-22T11:45:47.010Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "f8c1a93b-aaec-4bea-b200-c20bdb1d6348",
+        "start_date": "2023-09-22T03:24:10.087Z",
+        "end_date": "2023-09-22T00:26:17.702Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-21T21:14:39.131Z",
+        "updated_at": "2023-09-22T19:32:09.140Z",
+        "menu_id": "74706bc1-270d-405f-8d9f-47b3539a1ef3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ffcb78b-e040-4176-84aa-a6ee35b6600b",
+        "start_date": "2023-09-22T15:52:12.937Z",
+        "end_date": "2023-09-22T12:20:05.130Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-21T21:31:09.392Z",
+        "updated_at": "2023-09-21T22:02:25.302Z",
+        "menu_id": "74706bc1-270d-405f-8d9f-47b3539a1ef3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee070315-7c62-4cf5-bb02-54c0fa520f2e",
+        "start_date": "2023-09-22T01:07:52.935Z",
+        "end_date": "2023-09-22T01:49:28.581Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-22T19:01:40.126Z",
+        "updated_at": "2023-09-22T07:28:52.140Z",
+        "menu_id": "826be5f5-71d2-46a5-95ad-e911b925e851",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b08d4dc-132b-4aba-bfb5-c9aef00be30c",
+        "start_date": "2023-09-22T09:39:43.225Z",
+        "end_date": "2023-09-22T12:37:23.068Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-21T22:05:05.322Z",
+        "updated_at": "2023-09-22T11:03:03.244Z",
+        "menu_id": "c6773c36-d9b5-4236-8f3a-d654997aa687",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15d46797-4315-47c5-b617-065d296b00c5",
+        "start_date": "2023-09-22T00:04:29.787Z",
+        "end_date": "2023-09-22T01:30:42.950Z",
+        "payment_status": "Active",
+        "created_at": "2023-09-22T03:04:32.808Z",
+        "updated_at": "2023-09-22T10:34:17.927Z",
+        "menu_id": "a8a21785-ae99-4040-a54e-80778ab0658d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "e802a632-c1eb-4b35-83fe-6f8bac0a0e98",
+        "date": "2023-09-22T01:44:27.643Z",
+        "meal_time": "2023-09-22T17:42:13.846Z",
+        "created_at": "2023-09-22T14:03:02.407Z",
+        "updated_at": "2023-09-22T14:56:22.390Z",
+        "menu_id": "a25da3f8-26f5-4441-9fd9-509c9d188a8a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bbe58dd-bd2a-48cc-8434-22bdeec30940",
+        "date": "2023-09-22T08:36:25.462Z",
+        "meal_time": "2023-09-21T22:41:27.708Z",
+        "created_at": "2023-09-22T09:41:13.839Z",
+        "updated_at": "2023-09-22T06:03:45.704Z",
+        "menu_id": "a8a21785-ae99-4040-a54e-80778ab0658d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3131f90-cd34-4704-9261-7b3d270ec237",
+        "date": "2023-09-22T17:04:36.361Z",
+        "meal_time": "2023-09-22T14:17:53.631Z",
+        "created_at": "2023-09-22T16:41:49.487Z",
+        "updated_at": "2023-09-22T18:11:21.235Z",
+        "menu_id": "a25da3f8-26f5-4441-9fd9-509c9d188a8a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "054f4f50-195c-45cd-ac70-bef25f86503d",
+        "date": "2023-09-22T14:29:31.979Z",
+        "meal_time": "2023-09-21T21:29:10.486Z",
+        "created_at": "2023-09-21T20:27:14.053Z",
+        "updated_at": "2023-09-21T20:55:32.115Z",
+        "menu_id": "c6773c36-d9b5-4236-8f3a-d654997aa687",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ef354cf-ae39-4d89-bd26-1c2ac54cb822",
+        "date": "2023-09-22T16:11:59.472Z",
+        "meal_time": "2023-09-22T08:07:28.594Z",
+        "created_at": "2023-09-22T04:42:17.770Z",
+        "updated_at": "2023-09-22T02:07:37.194Z",
+        "menu_id": "a8a21785-ae99-4040-a54e-80778ab0658d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "4413026d-213d-4070-b660-e3f7e98f9927",
+        "qualification": "Registered Dietitian",
+        "experience": 86146,
+        "specialization": "Weight Management",
+        "availability": "2023-09-22T09:58:48.870Z",
+        "created_at": "2023-09-22T19:03:33.854Z",
+        "updated_at": "2023-09-22T18:30:14.375Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4437dfd7-8365-4482-9c7a-ff52e6073612",
+        "qualification": "Certified Nutritionist",
+        "experience": 7076,
+        "specialization": "Diabetes Care",
+        "availability": "2023-09-22T16:06:32.538Z",
+        "created_at": "2023-09-22T10:11:18.722Z",
+        "updated_at": "2023-09-22T06:51:20.716Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b632dcc-ba0a-44b3-8442-03b0ba75ad78",
+        "qualification": "Clinical Dietitian",
+        "experience": 80548,
+        "specialization": "Heart Health",
+        "availability": "2023-09-22T02:16:49.580Z",
+        "created_at": "2023-09-22T13:31:55.262Z",
+        "updated_at": "2023-09-22T18:19:07.614Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37eae53f-4182-4919-9a78-2a654f8d131c",
+        "qualification": "Sports Nutritionist",
+        "experience": 96356,
+        "specialization": "Gut Health",
+        "availability": "2023-09-21T21:59:54.414Z",
+        "created_at": "2023-09-22T04:58:34.234Z",
+        "updated_at": "2023-09-22T03:16:15.718Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8877f414-e416-41ab-b855-2c887b15375d",
+        "qualification": "Pediatric Dietitian",
+        "experience": 84642,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-22T06:28:26.332Z",
+        "created_at": "2023-09-21T22:02:21.934Z",
+        "updated_at": "2023-09-22T00:15:42.042Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6a852a01-e4be-4700-acc5-0f3baeead9b3",
+        "email": "Melisa.Schmeler@roq.tech",
+        "firstName": "Gerardo",
+        "lastName": "McDermott-Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/264.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb767f15-7a8b-4903-afad-f9ec258257d0",
+        "email": "Tatyana59@roq.tech",
+        "firstName": "Skylar",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67502933",
+        "tenantId": null
+      },
+      {
+        "reference": "b9efe57d-6656-4f2f-897f-994a7899618c",
+        "email": "Gabriel.Kirlin12@roq.tech",
+        "firstName": "Tanya",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/507.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4bca0a25-06ef-45f1-b21d-3b4961c49dcc",
+        "email": "Houston16@roq.tech",
+        "firstName": "Carmine",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5885452",
+        "tenantId": null
+      },
+      {
+        "reference": "2340f595-1b0d-44a5-9621-f27429b10a46",
+        "email": "Erwin0@roq.tech",
+        "firstName": "Marvin",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/150.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu": [
+      {
+        "id": "3e6e3308-89ed-4748-9f78-b16668546c23",
+        "name": "Burger",
+        "description": "Delicious burger with fries",
+        "calories": 10973,
+        "protein": 55848,
+        "carbs": 83679,
+        "fat": 22861,
+        "created_at": "2023-09-22T15:28:56.756Z",
+        "updated_at": "2023-09-22T18:16:05.400Z"
+      },
+      {
+        "id": "0cb20772-4c2d-40c2-8c27-34b69595e6b9",
+        "name": "Pizza",
+        "description": "Authentic Italian pizza",
+        "calories": 51567,
+        "protein": 63122,
+        "carbs": 79615,
+        "fat": 77188,
+        "created_at": "2023-09-22T05:32:45.143Z",
+        "updated_at": "2023-09-22T13:40:52.756Z"
+      },
+      {
+        "id": "c47fe223-d8e8-41f7-81b5-407bb4a04b38",
+        "name": "Salad",
+        "description": "Fresh and healthy salad",
+        "calories": 24306,
+        "protein": 12622,
+        "carbs": 22631,
+        "fat": 72894,
+        "created_at": "2023-09-21T22:01:44.753Z",
+        "updated_at": "2023-09-22T05:57:59.824Z"
+      },
+      {
+        "id": "6d33f249-c996-4d72-9bb7-ebddd79205e5",
+        "name": "Sushi",
+        "description": "Traditional Japanese sushi",
+        "calories": 3147,
+        "protein": 81800,
+        "carbs": 25882,
+        "fat": 41919,
+        "created_at": "2023-09-22T15:36:50.534Z",
+        "updated_at": "2023-09-22T16:37:52.061Z"
+      },
+      {
+        "id": "d7f92bd1-1193-469d-920a-08eb26597fe6",
+        "name": "Pasta",
+        "description": "Creamy and flavorful pasta",
+        "calories": 17717,
+        "protein": 84806,
+        "carbs": 15237,
+        "fat": 22007,
+        "created_at": "2023-09-22T02:27:08.931Z",
+        "updated_at": "2023-09-22T08:48:51.815Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "3211e004-adc3-4f4f-bdda-7c4efee49096",
+        "start_date": "2023-09-22T05:35:28.295Z",
+        "end_date": "2023-09-22T18:40:17.508Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-21T21:24:54.194Z",
+        "updated_at": "2023-09-22T15:53:45.656Z",
+        "menu_id": "0cb20772-4c2d-40c2-8c27-34b69595e6b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbaa7278-ac64-4679-bb27-1dc7363ae6f2",
+        "start_date": "2023-09-22T06:35:28.222Z",
+        "end_date": "2023-09-22T12:12:26.192Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-22T19:48:46.143Z",
+        "updated_at": "2023-09-21T22:23:10.598Z",
+        "menu_id": "0cb20772-4c2d-40c2-8c27-34b69595e6b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d38014ad-11d9-4516-8535-709b7edd43b7",
+        "start_date": "2023-09-22T07:46:58.269Z",
+        "end_date": "2023-09-22T08:50:01.507Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-21T21:09:44.829Z",
+        "updated_at": "2023-09-22T18:20:27.014Z",
+        "menu_id": "3e6e3308-89ed-4748-9f78-b16668546c23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f961147-fc87-4441-812c-7601bf928804",
+        "start_date": "2023-09-22T18:52:48.811Z",
+        "end_date": "2023-09-22T06:39:33.205Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-22T09:39:39.613Z",
+        "updated_at": "2023-09-21T20:38:17.783Z",
+        "menu_id": "0cb20772-4c2d-40c2-8c27-34b69595e6b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0759d98e-346d-446a-a372-edc24ecd4265",
+        "start_date": "2023-09-22T20:09:13.293Z",
+        "end_date": "2023-09-22T08:53:45.426Z",
+        "payment_status": "Active",
+        "created_at": "2023-09-21T23:40:02.485Z",
+        "updated_at": "2023-09-22T16:33:26.409Z",
+        "menu_id": "6d33f249-c996-4d72-9bb7-ebddd79205e5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "daad7579-3a7f-448a-a496-1d9e39d467ad",
+        "date": "2023-09-22T16:30:11.080Z",
+        "meal_time": "2023-09-22T11:59:22.195Z",
+        "created_at": "2023-09-22T10:41:29.963Z",
+        "updated_at": "2023-09-22T17:51:50.523Z",
+        "menu_id": "3e6e3308-89ed-4748-9f78-b16668546c23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "287638d6-fc35-46a9-ae7c-22ebbd01a67a",
+        "date": "2023-09-21T22:15:57.882Z",
+        "meal_time": "2023-09-22T07:00:10.750Z",
+        "created_at": "2023-09-22T16:21:05.929Z",
+        "updated_at": "2023-09-22T03:41:08.806Z",
+        "menu_id": "0cb20772-4c2d-40c2-8c27-34b69595e6b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5126f4cd-5cd5-4f06-9308-c9336bccc663",
+        "date": "2023-09-22T09:11:42.417Z",
+        "meal_time": "2023-09-21T20:40:50.419Z",
+        "created_at": "2023-09-22T09:48:10.333Z",
+        "updated_at": "2023-09-22T05:28:50.557Z",
+        "menu_id": "6d33f249-c996-4d72-9bb7-ebddd79205e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1d7f1cc-a278-4dfa-afbd-4443a5405d6b",
+        "date": "2023-09-22T12:51:55.304Z",
+        "meal_time": "2023-09-22T18:32:04.548Z",
+        "created_at": "2023-09-21T20:54:39.932Z",
+        "updated_at": "2023-09-22T10:29:31.164Z",
+        "menu_id": "d7f92bd1-1193-469d-920a-08eb26597fe6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4a9b7dd-8f0c-479d-b2c5-1c687d14cb4d",
+        "date": "2023-09-22T08:55:12.785Z",
+        "meal_time": "2023-09-22T14:18:49.118Z",
+        "created_at": "2023-09-22T12:09:13.537Z",
+        "updated_at": "2023-09-22T06:52:50.561Z",
+        "menu_id": "6d33f249-c996-4d72-9bb7-ebddd79205e5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "02cb76f0-d34c-4797-8bf5-881b903e8460",
+        "qualification": "Registered Dietitian",
+        "experience": 49172,
+        "specialization": "Weight Management",
+        "availability": "2023-09-22T03:44:09.329Z",
+        "created_at": "2023-09-22T01:57:36.145Z",
+        "updated_at": "2023-09-22T04:57:11.709Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19e14d19-ae95-4727-b802-5ef503e2430b",
+        "qualification": "Certified Nutritionist",
+        "experience": 78379,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-22T10:14:16.193Z",
+        "created_at": "2023-09-22T03:01:15.447Z",
+        "updated_at": "2023-09-22T10:58:02.471Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fd704aa-1da3-4628-8220-02ccf2f6a0a2",
+        "qualification": "Clinical Dietitian",
+        "experience": 67493,
+        "specialization": "Gut Health",
+        "availability": "2023-09-21T21:53:04.116Z",
+        "created_at": "2023-09-22T16:02:10.547Z",
+        "updated_at": "2023-09-22T17:01:37.773Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6594b14c-e4d9-4e1f-ac65-be30c5f98628",
+        "qualification": "Sports Nutritionist",
+        "experience": 43067,
+        "specialization": "Plant-Based Nutrition",
+        "availability": "2023-09-21T20:53:46.206Z",
+        "created_at": "2023-09-22T03:04:31.741Z",
+        "updated_at": "2023-09-22T11:31:10.402Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cc39098-f893-4bb5-818d-a14eb57c1d9e",
+        "qualification": "Holistic Health Coach",
+        "experience": 78352,
+        "specialization": "Eating Disorders",
+        "availability": "2023-09-22T08:25:48.195Z",
+        "created_at": "2023-09-21T20:58:11.148Z",
+        "updated_at": "2023-09-22T00:41:34.498Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ebd8fbb1-0367-4567-80a9-38e7bc700339",
+        "email": "Andre65@roq.tech",
+        "firstName": "Ebony",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72299546",
+        "tenantId": null
+      },
+      {
+        "reference": "bed174a8-8cb8-468f-a675-90e22d562a27",
+        "email": "Reanna.Beer@roq.tech",
+        "firstName": "Florence",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16548457",
+        "tenantId": null
+      },
+      {
+        "reference": "d2f50a72-db85-4204-a3a7-89ebb53fb62d",
+        "email": "Pearline46@roq.tech",
+        "firstName": "Lee",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/371.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c058d45c-80c0-473e-a264-0420d2a0643f",
+        "email": "Jasmin_Kunze22@roq.tech",
+        "firstName": "Joyce",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1162.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5bbce349-7ca0-4551-8a9f-0fa14c1638ad",
+        "email": "Merle_Weissnat@roq.tech",
+        "firstName": "Ewald",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/864.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu": [
+      {
+        "id": "6ee1f54f-936e-4780-ba17-aaffa2b6028c",
+        "name": "Salad",
+        "description": "Fresh mixed greens with tomatoes and cucumbers",
+        "calories": 94653,
+        "protein": 24020,
+        "carbs": 15819,
+        "fat": 77464,
+        "created_at": "2023-09-22T07:33:50.370Z",
+        "updated_at": "2023-09-21T22:55:47.742Z"
+      },
+      {
+        "id": "242790b3-a369-490e-9937-492bf01c62f6",
+        "name": "Pasta",
+        "description": "Al dente spaghetti with homemade marinara sauce",
+        "calories": 53552,
+        "protein": 93202,
+        "carbs": 11131,
+        "fat": 63538,
+        "created_at": "2023-09-22T14:52:38.536Z",
+        "updated_at": "2023-09-22T01:16:39.880Z"
+      },
+      {
+        "id": "e5f5563d-f4ba-43e3-ae0a-d9f0d83f4075",
+        "name": "Burger",
+        "description": "Juicy beef patty with melted cheese and crispy bacon",
+        "calories": 47737,
+        "protein": 28532,
+        "carbs": 22209,
+        "fat": 16169,
+        "created_at": "2023-09-22T02:20:40.526Z",
+        "updated_at": "2023-09-22T18:54:42.296Z"
+      },
+      {
+        "id": "829346ac-fab2-45ef-8a81-4eb063756a0e",
+        "name": "Pizza",
+        "description": "Thin crust topped with tomato sauce, mozzarella, and pepperoni",
+        "calories": 44712,
+        "protein": 21888,
+        "carbs": 22860,
+        "fat": 16317,
+        "created_at": "2023-09-22T17:08:53.336Z",
+        "updated_at": "2023-09-22T14:18:19.986Z"
+      },
+      {
+        "id": "2bdc6a00-7b08-4e90-8ac4-1a267553580f",
+        "name": "Sushi",
+        "description": "Assorted raw fish on seasoned rice",
+        "calories": 33434,
+        "protein": 87381,
+        "carbs": 80851,
+        "fat": 37746,
+        "created_at": "2023-09-22T14:29:58.877Z",
+        "updated_at": "2023-09-22T17:20:23.359Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "3badcad3-93cc-42da-a2dd-65fa4681a2bf",
+        "start_date": "2023-09-22T11:58:19.003Z",
+        "end_date": "2023-09-21T20:44:13.626Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-22T04:19:36.744Z",
+        "updated_at": "2023-09-22T00:29:24.213Z",
+        "menu_id": "2bdc6a00-7b08-4e90-8ac4-1a267553580f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5873a342-486d-4680-87c2-14308ae1ceb0",
+        "start_date": "2023-09-22T17:56:29.073Z",
+        "end_date": "2023-09-22T14:41:49.601Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-22T19:54:21.253Z",
+        "updated_at": "2023-09-22T10:52:47.947Z",
+        "menu_id": "6ee1f54f-936e-4780-ba17-aaffa2b6028c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "695bffdd-4e1a-4292-96c7-72867876fc6c",
+        "start_date": "2023-09-22T05:26:09.115Z",
+        "end_date": "2023-09-22T20:09:38.706Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-21T21:20:39.272Z",
+        "updated_at": "2023-09-22T04:59:40.811Z",
+        "menu_id": "2bdc6a00-7b08-4e90-8ac4-1a267553580f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bd1e987-5cca-44af-b312-49c860e9746b",
+        "start_date": "2023-09-22T14:37:14.120Z",
+        "end_date": "2023-09-22T19:00:01.801Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-22T00:30:18.569Z",
+        "updated_at": "2023-09-21T22:52:17.774Z",
+        "menu_id": "829346ac-fab2-45ef-8a81-4eb063756a0e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aadaf974-5e9a-49bb-b497-032d601d8f6d",
+        "start_date": "2023-09-22T09:12:59.307Z",
+        "end_date": "2023-09-22T17:21:00.290Z",
+        "payment_status": "Refunded",
+        "created_at": "2023-09-22T17:55:27.709Z",
+        "updated_at": "2023-09-22T06:52:51.644Z",
+        "menu_id": "242790b3-a369-490e-9937-492bf01c62f6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "6bdfaebc-24d1-4245-93f1-d5ec36d620a2",
+        "date": "2023-09-21T20:20:32.598Z",
+        "meal_time": "2023-09-22T10:51:13.913Z",
+        "created_at": "2023-09-22T09:25:00.442Z",
+        "updated_at": "2023-09-22T14:39:42.973Z",
+        "menu_id": "6ee1f54f-936e-4780-ba17-aaffa2b6028c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e70bc89b-23c3-4b07-b81d-9e64914a2fea",
+        "date": "2023-09-22T02:25:42.541Z",
+        "meal_time": "2023-09-22T06:40:27.870Z",
+        "created_at": "2023-09-22T07:53:39.001Z",
+        "updated_at": "2023-09-21T23:03:04.709Z",
+        "menu_id": "242790b3-a369-490e-9937-492bf01c62f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22cebe3d-2a5d-4444-90fb-e1e96c354612",
+        "date": "2023-09-22T13:19:11.644Z",
+        "meal_time": "2023-09-22T04:20:59.405Z",
+        "created_at": "2023-09-21T22:27:05.553Z",
+        "updated_at": "2023-09-21T22:30:33.528Z",
+        "menu_id": "2bdc6a00-7b08-4e90-8ac4-1a267553580f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc279596-7d2a-4b08-822c-074c49ee9a45",
+        "date": "2023-09-22T18:11:35.023Z",
+        "meal_time": "2023-09-22T18:58:23.713Z",
+        "created_at": "2023-09-22T05:08:33.947Z",
+        "updated_at": "2023-09-22T00:07:21.103Z",
+        "menu_id": "242790b3-a369-490e-9937-492bf01c62f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90ef7991-468a-423d-9b0f-4a313ad7d8db",
+        "date": "2023-09-22T13:31:48.251Z",
+        "meal_time": "2023-09-22T05:34:04.918Z",
+        "created_at": "2023-09-22T18:54:15.652Z",
+        "updated_at": "2023-09-22T15:31:15.226Z",
+        "menu_id": "242790b3-a369-490e-9937-492bf01c62f6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "e1a38b7b-d53e-4832-912f-971553bd8451",
+        "qualification": "Registered Dietitian",
+        "experience": 4441,
+        "specialization": "Weight Management",
+        "availability": "2023-09-22T19:00:00.096Z",
+        "created_at": "2023-09-22T16:36:16.137Z",
+        "updated_at": "2023-09-22T01:09:31.511Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46fe5add-b3f2-4291-85a8-edcd5f36ce4a",
+        "qualification": "Certified Nutritionist",
+        "experience": 88610,
+        "specialization": "Diabetes Management",
+        "availability": "2023-09-22T00:33:07.339Z",
+        "created_at": "2023-09-22T18:28:20.597Z",
+        "updated_at": "2023-09-22T17:45:23.589Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04e21eef-944a-4773-a46b-d1da6ea8d3be",
+        "qualification": "Licensed Dietitian",
+        "experience": 93791,
+        "specialization": "Heart Health",
+        "availability": "2023-09-22T10:30:46.308Z",
+        "created_at": "2023-09-22T15:03:02.259Z",
+        "updated_at": "2023-09-22T19:33:19.846Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a767f6a4-b079-47e2-b482-3169e0273600",
+        "qualification": "Clinical Dietitian",
+        "experience": 80942,
+        "specialization": "Gut Health",
+        "availability": "2023-09-22T03:30:58.651Z",
+        "created_at": "2023-09-22T13:52:28.963Z",
+        "updated_at": "2023-09-22T06:54:16.664Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c45d1c7d-64dd-46f0-b04d-26165b78375e",
+        "qualification": "Sports Nutritionist",
+        "experience": 63571,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-22T12:14:14.116Z",
+        "created_at": "2023-09-22T15:31:29.713Z",
+        "updated_at": "2023-09-22T05:02:59.241Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8cb24fc0-71dc-4e18-8369-c8a329a97125",
+        "email": "Joannie.Legros20@roq.tech",
+        "firstName": "Baby",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61898374",
+        "tenantId": null
+      },
+      {
+        "reference": "39b41740-0f44-440b-91ce-84b98e9605bd",
+        "email": "Andreane21@roq.tech",
+        "firstName": "Keara",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "48fab81d-901b-490d-b207-a1d180ff5e72",
+        "email": "Faye48@roq.tech",
+        "firstName": "Mathias",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87572611",
+        "tenantId": null
+      },
+      {
+        "reference": "58e8c82e-e290-422d-818f-af59e1acf9c6",
+        "email": "Fred_Gutkowski@roq.tech",
+        "firstName": "Cordie",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/414.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "58114893-66c5-438a-8fcc-e047d7edb5d3",
+        "email": "Lauren_OConnell-Ortiz64@roq.tech",
+        "firstName": "Rahul",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51918564",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu": [
+      {
+        "id": "63634901-de9b-4154-a521-102cebf9a22f",
+        "name": "Breakfast",
+        "description": "Delicious breakfast options",
+        "calories": 69994,
+        "protein": 22185,
+        "carbs": 99023,
+        "fat": 27948,
+        "created_at": "2023-09-22T04:28:37.238Z",
+        "updated_at": "2023-09-22T18:31:50.415Z"
+      },
+      {
+        "id": "3742efa4-4e82-43ce-94af-5e4d511d6af4",
+        "name": "Lunch",
+        "description": "Healthy lunch choices",
+        "calories": 330,
+        "protein": 2990,
+        "carbs": 43894,
+        "fat": 66363,
+        "created_at": "2023-09-22T01:36:07.711Z",
+        "updated_at": "2023-09-21T20:46:00.521Z"
+      },
+      {
+        "id": "85585b08-cb4f-475b-989c-c1bf646948fc",
+        "name": "Dinner",
+        "description": "Tasty dinner recipes",
+        "calories": 43939,
+        "protein": 21380,
+        "carbs": 48490,
+        "fat": 98938,
+        "created_at": "2023-09-22T17:56:12.122Z",
+        "updated_at": "2023-09-22T08:01:45.227Z"
+      },
+      {
+        "id": "2d0a594b-8fb4-43e0-91dc-f92bff878729",
+        "name": "Snacks",
+        "description": "Yummy snack ideas",
+        "calories": 52129,
+        "protein": 75843,
+        "carbs": 65295,
+        "fat": 22983,
+        "created_at": "2023-09-22T13:41:16.343Z",
+        "updated_at": "2023-09-22T08:17:44.136Z"
+      },
+      {
+        "id": "f71ea1d7-cb2e-4081-b3af-6904e32561dd",
+        "name": "Beverages",
+        "description": "Refreshing drink options",
+        "calories": 87762,
+        "protein": 63369,
+        "carbs": 7919,
+        "fat": 32143,
+        "created_at": "2023-09-21T23:45:15.173Z",
+        "updated_at": "2023-09-21T22:45:44.517Z"
+      }
+    ],
+    "subscription": [
+      {
+        "id": "3557be4c-1800-4f10-b5f6-86aec860bb69",
+        "start_date": "2023-09-22T10:57:59.821Z",
+        "end_date": "2023-09-22T09:26:39.611Z",
+        "payment_status": "Paid",
+        "created_at": "2023-09-22T11:25:17.359Z",
+        "updated_at": "2023-09-22T15:03:06.666Z",
+        "menu_id": "f71ea1d7-cb2e-4081-b3af-6904e32561dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "110c8ebe-acb3-4b73-aa9a-8ef43dda901e",
+        "start_date": "2023-09-22T06:54:22.168Z",
+        "end_date": "2023-09-22T13:30:55.750Z",
+        "payment_status": "Pending",
+        "created_at": "2023-09-22T04:54:15.958Z",
+        "updated_at": "2023-09-22T00:56:51.130Z",
+        "menu_id": "63634901-de9b-4154-a521-102cebf9a22f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "602380d0-fc69-499d-a3dd-82080ed09643",
+        "start_date": "2023-09-22T06:09:47.218Z",
+        "end_date": "2023-09-22T18:24:33.359Z",
+        "payment_status": "Cancelled",
+        "created_at": "2023-09-21T23:03:44.556Z",
+        "updated_at": "2023-09-22T01:13:13.933Z",
+        "menu_id": "f71ea1d7-cb2e-4081-b3af-6904e32561dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fea7aa60-579c-4d71-b43b-6320a2f74651",
+        "start_date": "2023-09-22T11:45:27.215Z",
+        "end_date": "2023-09-22T01:38:30.720Z",
+        "payment_status": "Expired",
+        "created_at": "2023-09-22T17:02:57.042Z",
+        "updated_at": "2023-09-22T14:52:23.984Z",
+        "menu_id": "63634901-de9b-4154-a521-102cebf9a22f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4717b5b-88d9-4f45-9cab-de0c1c6cf928",
+        "start_date": "2023-09-22T02:51:28.357Z",
+        "end_date": "2023-09-22T11:07:47.485Z",
+        "payment_status": "Active",
+        "created_at": "2023-09-22T03:16:48.185Z",
+        "updated_at": "2023-09-22T08:15:37.248Z",
+        "menu_id": "63634901-de9b-4154-a521-102cebf9a22f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "1eea3600-2923-471d-8777-cf4b3c5dcf6a",
+        "date": "2023-09-22T17:34:58.306Z",
+        "meal_time": "2023-09-22T18:49:00.748Z",
+        "created_at": "2023-09-22T08:00:49.231Z",
+        "updated_at": "2023-09-22T10:57:53.191Z",
+        "menu_id": "63634901-de9b-4154-a521-102cebf9a22f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74e53001-b93e-4cce-8c92-47030d7d1682",
+        "date": "2023-09-21T23:15:06.193Z",
+        "meal_time": "2023-09-22T11:25:09.523Z",
+        "created_at": "2023-09-22T01:02:16.058Z",
+        "updated_at": "2023-09-22T00:52:12.375Z",
+        "menu_id": "85585b08-cb4f-475b-989c-c1bf646948fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e36ed25-6494-46d3-8141-502ac3310d8f",
+        "date": "2023-09-22T17:48:40.225Z",
+        "meal_time": "2023-09-22T14:16:13.379Z",
+        "created_at": "2023-09-22T07:28:11.018Z",
+        "updated_at": "2023-09-22T08:46:19.058Z",
+        "menu_id": "2d0a594b-8fb4-43e0-91dc-f92bff878729",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4288cc3-46af-4178-8a82-c4e482095f20",
+        "date": "2023-09-22T08:32:50.141Z",
+        "meal_time": "2023-09-22T15:32:22.750Z",
+        "created_at": "2023-09-21T21:13:16.868Z",
+        "updated_at": "2023-09-22T12:04:22.500Z",
+        "menu_id": "3742efa4-4e82-43ce-94af-5e4d511d6af4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f53974d1-915a-471f-8d9d-c5e2e4f13f1e",
+        "date": "2023-09-22T18:13:42.539Z",
+        "meal_time": "2023-09-22T10:34:17.947Z",
+        "created_at": "2023-09-21T20:53:37.780Z",
+        "updated_at": "2023-09-22T11:16:32.615Z",
+        "menu_id": "2d0a594b-8fb4-43e0-91dc-f92bff878729",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "dietitian": [
+      {
+        "id": "f86ca43b-866e-4dc5-bd2e-a885b96db590",
+        "qualification": "Registered Dietitian",
+        "experience": 31141,
+        "specialization": "Weight Management",
+        "availability": "2023-09-22T04:58:50.392Z",
+        "created_at": "2023-09-22T00:37:18.636Z",
+        "updated_at": "2023-09-22T14:12:22.660Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5cabd4f-78a1-4084-a6a2-21f433ce01dc",
+        "qualification": "Certified Nutritionist",
+        "experience": 70566,
+        "specialization": "Sports Nutrition",
+        "availability": "2023-09-22T04:51:31.264Z",
+        "created_at": "2023-09-22T03:36:49.819Z",
+        "updated_at": "2023-09-21T21:40:46.936Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a5e5c51-34da-4e56-a2bb-057b7536cfe7",
+        "qualification": "Master's in Nutrition",
+        "experience": 2709,
+        "specialization": "Pediatric Nutrition",
+        "availability": "2023-09-22T07:40:44.989Z",
+        "created_at": "2023-09-22T02:46:12.294Z",
+        "updated_at": "2023-09-22T08:30:36.313Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f30a8d17-a5c4-4664-8a36-47bae5bd6475",
+        "qualification": "Dietetics Specialist",
+        "experience": 20221,
+        "specialization": "Eating Disorders",
+        "availability": "2023-09-22T15:38:39.287Z",
+        "created_at": "2023-09-22T01:40:38.971Z",
+        "updated_at": "2023-09-22T04:10:00.621Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18c14032-ce05-4888-bb7f-5967fd10b58c",
+        "qualification": "Clinical Nutritionist",
+        "experience": 34529,
+        "specialization": "Gut Health",
+        "availability": "2023-09-22T16:48:18.096Z",
+        "created_at": "2023-09-22T00:49:54.733Z",
+        "updated_at": "2023-09-22T01:25:12.970Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d1c32fed-43f1-4643-aeb7-aa32b4d2e48a",
+        "email": "Axel.Jerde12@roq.tech",
+        "firstName": "Matt",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/618.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ad512520-3205-4cf3-a40f-9cb9ad6ec7b2",
+        "email": "Katelyn.Nitzsche90@roq.tech",
+        "firstName": "Hayden",
+        "lastName": "Olson-Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27448971",
+        "tenantId": null
+      },
+      {
+        "reference": "01b2cc85-bf76-4a33-b4b6-dd111728170c",
+        "email": "William51@roq.tech",
+        "firstName": "Amiya",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/30.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d7448095-40ae-4fa1-ac35-24b495d84196",
+        "email": "Geoffrey_Murazik32@roq.tech",
+        "firstName": "Dena",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1063.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78be0452-f571-4bdf-8a42-d15cf82b8a24",
+        "email": "Percy27@roq.tech",
+        "firstName": "Lillie",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49392094",
+        "tenantId": null
+      }
+    ]
+  }
+]
